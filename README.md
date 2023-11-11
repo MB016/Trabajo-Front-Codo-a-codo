@@ -19,7 +19,7 @@
 ## Descripción
 El sitio busca replicar una plataforma de streaming como Netflix, HBO, Paramount+ y demas, pero en vez de distribuir  Cine o Series distribuye libros, comics y manga.
 El objetivo de la plataforma es facilitar la distribucion de literatura juvenil y comics a un publico mas amplio, y al mismo tiempo promover obras mas desconocidas, creando una propuesta mas economica para el consumidor. 
-A traves de un sistema de suscripción tendras acceso a un catalogo de clasicos y nuevas obras, las cuales se iran renovando con el tiempo. Ademas subscribiendote apoyaras a tus autores favoritos, ya que estos recibiran un pago dependiendo de la cantidad de vistas y descargas que tenga su contenido.
+A traves de un sistema de suscripción tendras acceso a un catalogo de clasicos y nuevas obras, las cuales se iran renovando con el tiempo. Ademas suscribiendote apoyaras a tus autores favoritos, ya que estos recibiran un pago dependiendo de la cantidad de vistas y descargas que tenga su contenido.
 
 
 ## Características
