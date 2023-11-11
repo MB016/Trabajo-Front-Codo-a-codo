@@ -1,4 +1,6 @@
-(https://static.vecteezy.com/system/resources/previews/011/468/436/non_2x/coffee-book-logo-design-tea-book-store-iconic-logo-free-vector.jpg)
+[![Cafe Logo](https://static.vecteezy.com/system/resources/previews/011/468/436/non_2x/coffee-book-logo-design-tea-book-store-iconic-logo-free-vector.jpg)]
+
+ No hay nada como leer un cafe, oler un libro y beber tinta.
 # Proyecto: Cafe y Tinta
 No hay nada como leer un cafe, oler un libro y beber tinta.
 
