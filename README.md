@@ -1,11 +1,15 @@
-# Proyecto: Cafe y Tinta
+## Proyecto: Cafe y Tinta
   CODO A CODO - FULL STACK PYTHON
+  
   TPO - FRONTEND - GRUPO 17
 
 
 [![Express Logo](https://static.vecteezy.com/system/resources/previews/011/468/436/non_2x/coffee-book-logo-design-tea-book-store-iconic-logo-free-vector.jpg)]
 
- No hay nada como leer un cafe, oler un libro y beber tinta.
+ No hay nada como leer un cafe y beber un libro por la mañana.
+
+
+
 
 
 ## Integrantes:
@@ -14,7 +18,8 @@
 
 ## Descripción
 El sitio busca replicar una plataforma de streaming como Netflix, HBO, Paramount+ y demas, pero en vez de distribuir  Cine o Series distribuye libros, comics y manga.
-El objetivo de la plataforma es facilitar la distribucion de literatura juvenil y comics a un publico mas amplio y al mismo tiempo promover obra mas desconocidas. 
+El objetivo de la plataforma es facilitar la distribucion de literatura juvenil y comics a un publico mas amplio, y al mismo tiempo promover obra mas desconocidas creando una propuesta mas economica para el consumidor. 
+A traves de un sistema de suscripción tendras acceso a un catalogo de clasicos y nuevas obras, las cuales se iran renovando con el tiempo. Ademas subscribiendote apoyaras a tus autores favoritos, ya que estos recibiran un pago dependiendo de la cantidad de vistas y descargas que tenga su contenido.
 
 
 ## Características
@@ -25,3 +30,9 @@ El objetivo de la plataforma es facilitar la distribucion de literatura juvenil 
  * Comics
  * Registro
  * Inicio de sesion
+
+Desde Home puedes acceder al catalogo y seleccionar el contenido que deseas ver, este muestra las novedades en el carousel principal mas la pagina posee las secciones "Libros" y "Comics" por si buscas algo mas especifico. Una vez accedes al libro o comic que deseas, podras ver sinopsis de la obra y el pdf para leer en la pagina.
+
+
+## Contacto
+Si tienes preguntas o sugerencias, puedes contactarnos en contacto@sag.com.ar
