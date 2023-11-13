@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+@keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
 
+}
 
 
 * {
@@ -81,12 +86,13 @@ body {
         text-align: center;
         border-radius: 11px;
         padding: 8px 5px;
+        margin: 5px;
        
 
     }
     
 
-    .Registro {
+    .Volver {
         background-color: var(--Titulos);
         color: var(--Letra);
         text-decoration: none;
@@ -99,7 +105,7 @@ body {
     transition: .5s ease;
 }
 
-.Registro:hover {
+.Volver:hover {
     background-color: var(--Letra);
     color: var(--Titulos);
     transform: translate(0, -10%);
@@ -166,7 +172,26 @@ img:hover{
 
 }
 
-
+.boton {
+    background-color: var(--Separadores);
+    cursor: pointer;
+    color: var(--Letra);
+    position: relative;
+}
+.boton::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45dg, red, blue, pink, blue, red,blue, pink, blue
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
 
 .Footer {
     grid-area: 'footer';
@@ -192,21 +217,22 @@ img:hover{
             text-align: center;
             border-radius: 15px;
             padding: 20px;
+            margin: 5px;
         }
 
-        .Registro {
+        .Volver {
             background-color: var(--Titulos);
             color: var(--Letra);
         }
     }
 
-    & a:hover {
+    & a:ho ver {
         color: var(--Titulos);
         transform: translate(0, -10%);
         transition: .5s ease;
     }
 
-    .Registro:hover {
+    .Volver:hover {
         background-color: var(--Letra);
         color: var(--Titulos);
         transform: translate(0, -10%);

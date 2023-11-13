@@ -20,6 +20,25 @@
 
 body {
     font-family: 'Special Elite';
+    background-color: var(--BgColor);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+a{
+    color: var(--Letra);
+    text-decoration: none;
+    border: 1px solid var(--Letra);
+    border-radius: 5px;
+}
+
+a:hover{
+    border: 1px solid var(--BgColor);
+    background-color: var(--Letra);
+    color: var(--Letra);
+
 }
 
 .grid-container {
@@ -85,19 +104,7 @@ body {
         color: var(--Letra);
     }
 }
-a{
-    color: var(--Letra);
-    text-decoration: none;
-    border: 1px solid var(--Letra);
-    border-radius: 5px;
-}
 
-a:hover{
-    border: 1px solid var(--BgColor);
-    background-color: var(--Letra);
-    color: var(--Letra);
-
-}
 & a:hover {
     color: var(--Titulos);
     transform: translate(0, -10%);
