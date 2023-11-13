@@ -85,19 +85,7 @@ body {
         color: var(--Letra);
     }
 }
-a{
-    color: var(--Letra);
-    text-decoration: none;
-    border: 1px solid var(--Letra);
-    border-radius: 5px;
-}
 
-a:hover{
-    border: 1px solid var(--BgColor);
-    background-color: var(--Letra);
-    color: var(--Letra);
-
-}
 & a:hover {
     color: var(--Titulos);
     transform: translate(0, -10%);
@@ -110,6 +98,33 @@ a:hover{
     transform: translate(0, -10%);
     transition: .5s ease;
 }
+
+form{
+
+    text-align: center;
+    padding: 30%;
+
+    & p { margin: 5px}
+  & a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 50px;
+    border-radius: 5px;}
+
+}
+
+.form {
+padding: 5px;
+ 
+
+}
+
+h3{
+    padding: 10px;
+}
+
+
 
 .Main {
     grid-area: 'main';
